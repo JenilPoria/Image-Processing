@@ -5,12 +5,17 @@
 
 # Introduction 
   <img src = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq5166rH7J1qZAZ6a8D8d_h6HF02G-StWFWbww7NKuU3RQMSmffcR29jtah3frvtt1S0K383x8sfUlypVk8Y_cKMFGEBGUfIapVHkYjwAqLD6NHHdLqEy6VDWzEgl1H2gCkIHthezJDyo/s1600/e+14.JPG" style = "height: 300px; width: 300px; border-radius: 30px; margin: 10px 10px 10px 100px;">
+<!--   <img src = "sampling_and_quantization.JPG" alt="My Diagram" style="height:300px; margin: 15px 0px 15px 200px; border-radius: 50px;> -->
+
+ 
 Two critical steps are involved in dealing with analog signals and transforming continuous signals from the real world into digital form: <b>sampling and quantization </b> . Through these procedures, we are able to represent continuous data in a format that digital systems, like computers, can analyze and store for further analysis or transfer. This blog will go into great length on these ideas, outlining their significance, modes of operation, and distinctions.
 
 # 1) Sampling: (Transforming Discrete-Time Signals from Continuous-Time Signals)
    The process of transforming a continuous-time signal into a discrete-time signal is called sampling. When working with continuous signals (such light, sound, or any other analog signal found in the real world) with digital systems like computers or digital storage devices, this step is crucial. The basic idea is to transform the signal from a continuous form to a set of discrete values that can be processed digitally by taking periodic measurements (samples) of the signal's amplitude over time.
 
 # 1.1) Continuous vs. Discrete Signals
+<img src = "https://qph.cf2.quoracdn.net/main-qimg-9d99dfb0c2ab23e4793c75452cdeff0a-lq" style = "height : 300px; margin: 15px 0px 15px 300px" >
+
 <h3> 1.1.1) Continuous Signals: </h3>
 A signal type that is specified at all times is called a continuous signal. These signals span a continuous domain (time, space, etc.) and have a continuous range of values. A continuous signal can be mathematically represented as a function with a value at each instant in time. <br> 
  <h2> x(t),t∈(−∞,∞) </h2>
