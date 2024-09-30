@@ -97,3 +97,12 @@ The image sensor of a digital camera samples the light intensity from a scene us
 
 # Conclusion
 Both sampling and quantization are crucial steps in converting continuous analog signals into digital form for computer processing. Sampling defines the time intervals at which the signal is measured, breaking it into discrete time steps. Meanwhile, quantization focuses on representing the signal's amplitude by assigning it to a set of discrete levels. By working together, these processes enable the effective storage, transmission, and reconstruction of signals in digital systems, making them fundamental to fields like audio, video processing, and telecommunications.
+
+# References
+1) https://digitalsoundandmusic.com/5-1-2-digitization/
+2) https://www.tutorialspoint.com/digital_communication/digital_communication_quantization.htm
+3) https://www.youtube.com/watch?v=IYTlmyu6png
+4) https://slideplayer.com/slide/13710585/
+5) https://www.geeksforgeeks.org/nyquist-sampling-theorem/
+6) https://www.quora.com/What-is-the-difference-between-a-continuous-time-signal-and-an-analog-signal
+7) https://medium.com/@muhammad.a0625/image-sampling-and-quantization-5093bbb1424c
